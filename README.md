@@ -18,3 +18,5 @@ For bundle of his and Purkinje fiber, the Number of pulse (30-40) per minute
 T=1.71 for 40 Pulses per minute
 1.71 = 0.69(R_1+1000)×100×〖10〗^(-6)
 R1=20.739 KΩ
+
+I used 555 timer IC for generating pulses. Three IC were used for SA node, AV node and, Bundle of His, respectively. The frequency of pulses depends on C2 Capacitors and R1, R2 Resistors. The value of R2 resistors remains the same, and R1, R3, and R5 values were calculated according to their pulse number per minute. When the SA node was activated then, it created 70 pulses per minute, and the other two timers followed the frequency by giving SA node circuits output to its CV terminals. After switching off SA node circuits, AV node circuits generate pulses with their intrinsic frequency and the Bundle of His circuit followed the AV node circuit’s frequency. When the AV node circuit was switched off the Bundle of His circuits generate pulses with their intrinsic frequency.
